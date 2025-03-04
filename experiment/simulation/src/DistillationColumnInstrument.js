@@ -37,11 +37,11 @@ function DistillationColumnInstrument()
 	var pt;
 	var prv;
 	
-	
-	
 	var totalComp1;
 	
-	$("#Header").html("	<center><span >DISTILLATION COLUMN - VESSEL & INSTRUMENT DIAGRAM</span></center>");
+	var instrActualCount=0;
+	
+	$("#Header").html("	<center><span >DISTILLATION COLUMN - INSTRUMENT DIAGRAM</span></center>");
 	$("#Selection").css({"overflow": "auto","height":" 837px"});
 	htm=''
 		+'<div class="row titlePart" style="    border-style: unset;">'
@@ -130,6 +130,7 @@ function DistillationColumnInstrument()
 	  
 	   var flag=0;
 	$("#verifyInstr").click(function(){
+		instrActualCount++;
 		
 		 ft=parseInt($("#ft").val());
 		 tt=parseInt($("#tt").val());
@@ -193,12 +194,13 @@ function DistillationColumnInstrument()
 						+'     <td><center>3</center></td>'
 						+'     <td><center>1</center></td>'
 						+'     <td><center>1</center></td>'
+						+'     <td><center>1</center></td>'
 						+'     <td><center>2</center></td>'
 						+'   </tr>'
 					    +' </tbody>'
 						+'</table>'
 						+'</div>'
-						+"<img src='images/DisCol.png' class='img-fluid' style='border-style: double;border-color: black;'>"
+						+"<img src='images/Destillation_withSensor.png' class='img-fluid' style='border-style: double;border-color: black;'>"
 						 $("#modelBody1").html(htm);
 						  $("#modelBody1").css("color","red"); 
 				  }
@@ -222,20 +224,20 @@ function DistillationColumnInstrument()
 			 $("#modelTitle1").html("Message box");
 			 $("#modelBody1").html("<b>Click on 'Next level' button.</b>");
 			$("#modelBody1").css("color","green");
-			$("#tt,#ft,#pt,#lt,#lsl,#lsh,#tsh,#tsl,#vfd,#psh,#plc,#scr,#verifyInstr").prop("disabled",true);
+			$("#tt,#ft,#pt,#lt,#lsl,#lsh,#tsh,#tsl,#vfd,#psh,#plc,#scr,#verifyInstr,#prv,#tshh,#pshh,#lshh,#lsll,#afr").prop("disabled",true);
 			addToMasterJson();
 		
 			flag=1;
 			htm=''
 				+'<div class="col-sm-12" >'
-				+"<img src='images/DisCol.png' class='img-fluid' id='partB1' style=' width: 100px;height:100px;position: relative; margin: 20px;'  >"
+				+"<img src='images/Destillation_withSensor.png' class='img-fluid' id='partB1' style=' width: 100px;height:100px;position: relative; margin: 20px;'  >"
 				+'</div>'
 			  $("#diagram").html(htm);
 			  $("#partB1").animate(
 			          {
-			            width: "1000px",
-			            height: "700px",
-			            left: "+=100px",
+			            width: "100%",
+			            height: "100%",
+			            left: "+=10px",
 			          },
 			          1000,
 			          
@@ -305,10 +307,12 @@ function DistillationColumnInstrument()
 				
 		InstrMasterJson.Instrument=tempMasterJsonInstr;
 		console.log(InstrMasterJson);
+		resultJson.instrument=instrActualCount;
+		console.log(resultJson);
 	}
 	$("#nextLevel2").click(function(){
 		if(flag==1){
-			DistillationColumnPreQuestion();
+			DistillationColumnSquActivities();
 		}
 	
 	});

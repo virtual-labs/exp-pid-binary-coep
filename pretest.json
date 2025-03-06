@@ -1,0 +1,115 @@
+{
+    "version": 2,
+    "questions": [
+        {
+            "question": "What is the primary purpose of a distillation column pilot plant?",
+            "answers": {
+                "a": "To develop new distillation column designs ",
+                "b": "To optimize distillation processes for commercial production ",
+                "c": "To train operators on distillation column operation ",
+                "d": "To test new materials for distillation column construction"
+            },
+            "correctAnswer": "b",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "What is the typical scale of a distillation column pilot plant compared to a commercial-scale distillation column?",
+            "answers": {
+                "a": "1:1 ",
+                "b": "1:10 ",
+                "c": "1:100 ",
+                "d": "1:1000"
+            },
+            "correctAnswer": "c",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "What is the main advantage of using a distillation column pilot plant for process development?",
+            "answers": {
+                "a": "Reduced capital costs ",
+                "b": "Increased production capacity ",
+                "c": "Improved product quality ",
+                "d": "Flexibility to test different operating conditions"
+            },
+            "correctAnswer": "d",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "What type of distillation column is commonly used in pilot plants?",
+            "answers": {
+                "a": "Packed column ",
+                "b": "Tray column ",
+                "c": "Batch distillation column ",
+                "d": "All mentioned"
+            },
+            "correctAnswer": "d",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "What is the purpose of a reflux drum in a distillation column pilot plant?",
+            "answers": {
+                "a": "To separate liquid and vapor phases ",
+                "b": "To collect and re-circulate condensed vapor ",
+                "c": "To measure the flow rate of the distillate ",
+                "d": "To add heat to the distillation column"
+            },
+            "correctAnswer": "b",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "What is the primary factor that affects the separation efficiency of a distillation column pilot plant?",
+            "answers": {
+                "a": "Column height ",
+                "b": "Column diameter ",
+                "c": "Reflux ratio ",
+                "d": "Feed composition"
+            },
+            "correctAnswer": "c",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "What is the purpose of a condenser in a distillation column pilot plant?",
+            "answers": {
+                "a": "To cool the distillate ",
+                "b": "To heat the feed ",
+                "c": "To separate the liquid and vapor phases ",
+                "d": "To measure the pressure drop across the column"
+            },
+            "correctAnswer": "a",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "What type of data is typically collected during a distillation column pilot plant experiment?",
+            "answers": {
+                "a": "Temperature, pressure, and flow rate ",
+                "b": "Composition, purity, and yield ",
+                "c": "Energy consumption and utility costs ",
+                "d": "All mentioned"
+            },
+            "correctAnswer": "d",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "What is the primary benefit of using a pilot plant to test a new distillation column design?",
+            "answers": {
+                "a": "Reduced risk of commercial-scale failure ",
+                "b": "Increased production capacity ",
+                "c": "Improved product quality ",
+                "d": "Lower capital costs"
+            },
+            "correctAnswer": "a",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "What is the typical duration of a distillation column pilot plant experiment?",
+            "answers": {
+                "a": "Hours",
+                "b": "Days",
+                "c": "Weeks ",
+                "d": "Months"
+            },
+            "correctAnswer": "b",
+            "difficulty": "beginner"
+        }
+    ]
+}

@@ -1,3 +1,5 @@
+## Theory
+
 The distillation column pilot plant is a crucial tool for process development, optimization, and scale-up in the chemical, petrochemical, and pharmaceutical industries. By replicating real-world industrial conditions on a smaller scale, this pilot plant enables the testing and refinement of distillation processes, identification of optimal operating conditions, and evaluation of new separation technologies. The plant’s advanced instrumentation system, featuring cutting-edge sensors, analyzers, and control systems, provides real-time monitoring and control of key process parameters such as temperature, pressure, flow rates, and composition.
 
 This allows for precise data collection, reduced experimentation time, and improved process understanding, ultimately leading to enhanced product quality, increased yields, and reduced energy consumption. Furthermore, the pilot plant's automated operation and data acquisition capabilities facilitate the development of predictive models, enable the training of operators and engineers, and support the implementation of advanced process control strategies, thereby bridging the gap between laboratory-scale experiments and commercial-scale production.
@@ -9,49 +11,49 @@ Process industries add value to materials by mixing, separating, forming or chem
 
 #### I. Based on the number of products extracted, distillation columns can be classified into two types:
 
-##### a.	Binary distillation column: 
+#### a.	Binary distillation column: 
 
 There is a mixture of two components which are to be separated and at the end of distillation we obtain two individual components.
  
-##### b. Multi component distillation column: 
+#### b. Multi component distillation column: 
 
 The feed contains more than two components which are to be distilled.
 
 #### II. Based on the type of column, distillation columns can be classified into two types:
 
-##### a. Batch distillation column: 
+#### a. Batch distillation column: 
 
 The feed to the column is introduced batch wise. At first the distillation column is charged with feed in a specific lot or batch and after that distillation process is carried out. After that the specific batch is obtained and another batch is introduced. 
 
-##### b. Continuous Distillation Column: 
+#### b. Continuous Distillation Column: 
 
 The feed to the column is charged continuously and the product is extracted continuously. Continuous columns process a continuous feed stream. 
 
 #### III. Based on the type of column internals, distillation columns can be classified into two types: 
 
-##### a. Tray Columns: 
+#### a. Tray Columns: 
 
 Trays of various designs are used to hold up the liquid to provide better contact between vapor and liquid. 
 
-##### b. Packed Columns: 
+#### b. Packed Columns: 
 
 Internal packing is used for enhancing the contact between the vapor and liquid.
 Various I/Os for the pilot distillation column.
 
 
-![*Digital Inputs*](images/Digital Inputs.png)
+![*Digital Inputs*](images/Digital_Inputs.png)
 
 
-![*Digital Outputs*](images/Digital Outputs.png)
+![*Digital Outputs*](images/Digital_Outputs.png)
 
 
-![*Analog Inputs*](images/Analog Inputs.png)
+![*Analog Inputs*](images/Analog_Inputs.png)
 
 
-![*Analog Outputs*](images/Analog Outputs.png)
+![*Analog Outputs*](images/Analog_Outputs.png)
 
 
-![*Piping and Instrument Diagram of Distillation Column*](images/Piping and Instrument Diagram of Distillation Column.png)
+![*Piping and Instrument Diagram of Distillation Column*](images/Piping_and_Instrument_Diagram_of_Distillation_Column.png)
 
 Function of important components
 The instrumentation components in Distillation plant can be divided into the following groups:

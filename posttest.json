@@ -1,0 +1,115 @@
+{
+    "version": 2,
+    "questions": [
+        {
+            "question": "What is the primary function of a PLC in a fully automatic distillation column?",
+            "answers": {
+                "a": "To control the temperature of the distillation column",
+                "b": "To monitor the pressure of the distillation column ",
+                "c": "To automate the distillation process and ensure consistent operation",
+                "d": "To measure the flow rate of the distillate"
+            },
+            "correctAnswer": "c",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "What type of sensor is typically used to measure the temperature of the distillation column in a PLC-based system?",
+            "answers": {
+                "a": "Thermocouple ",
+                "b": "RTD (Resistance Temperature Detector)",
+                "c": "Infrared sensor ",
+                "d": "Ultrasonic sensor"
+            },
+            "correctAnswer": "b",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "What is the purpose of the reflux control valve in a PLC-based distillation column?",
+            "answers": {
+                "a": "To control the flow rate of the distillate ",
+                "b": "To regulate the reflux ratio ",
+                "c": "To measure the pressure drop across the column",
+                "d": "To add heat to the distillation column"
+            },
+            "correctAnswer": "b",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "What is the benefit of using a PLC-based distillation column with a PID (Proportional-Integral-Derivative) controller?",
+            "answers": {
+                "a": "Improved product quality ",
+                "b": "Increased production capacity ",
+                "c": "Reduced energy consumption ",
+                "d": "Tighter control of process parameters"
+            },
+            "correctAnswer": "d",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "What type of communication protocol is commonly used in PLC-based distillation columns?",
+            "answers": {
+                "a": "Modbus ",
+                "b": "Profibus  ",
+                "c": "Ethernet/IP ",
+                "d": "All mentioned"
+            },
+            "correctAnswer": "d",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "What is the purpose of the alarm and warning system in a PLC-based distillation column?",
+            "answers": {
+                "a": "To notify operators of process deviations ",
+                "b": "To control the temperature of the distillation column ",
+                "c": "To measure the flow rate of the distillate ",
+                "d": "To add heat to the distillation column"
+            },
+            "correctAnswer": "a",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "What is the benefit of using a PLC-based distillation column with a data logging feature?",
+            "answers": {
+                "a": "Improved product quality ",
+                "b": "Increased production capacity ",
+                "c": "Reduced energy consumption ",
+                "d": "Historical data for process optimization and troubleshooting"
+            },
+            "correctAnswer": "d",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "What is the purpose of the safety interlock system in a PLC-based distillation column?",
+            "answers": {
+                "a": "To prevent operator errors",
+                "b": "To ensure consistent product quality ",
+                "c": "To prevent equipment damage and ensure safe operation ",
+                "d": "To measure the pressure drop across the column"
+            },
+            "correctAnswer": "c",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "What type of display is commonly used in PLC-based distillation columns?",
+            "answers": {
+                "a": "LCD (Liquid Crystal Display) ",
+                "b": "LED (Light Emitting Diode) ",
+                "c": "HMI (Human-Machine Interface) ",
+                "d": "All of the above"
+            },
+            "correctAnswer": "c",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "What is the benefit of using a PLC-based distillation column with remote monitoring capabilities?",
+            "answers": {
+                "a": "Improved product quality",
+                "b": "Increased production capacity ",
+                "c": "Reduced energy consumption ",
+                "d": "Real-time monitoring and control from a remote location"
+            },
+            "correctAnswer": "d",
+            "difficulty": "beginner"
+        }
+    ]
+}

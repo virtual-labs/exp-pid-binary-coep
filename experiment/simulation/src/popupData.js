@@ -5,14 +5,14 @@ $("#simDemo").click(function () {
 		+'<div class="row statement" ><p>A problem statement is a crucial element in designing and developing a pilot plant. '
 		+'It defines the problem or opportunity that the pilot plant aims to address, and it serves as a guiding force throughout the project.'
 		+' Here is a general outline to help you define a problem statement for designing and developing a pilot plant.'
-		+'<br><br>Problem Statement: You are given the responsibility as an Instrumentation and Control Engineer to design and commission a pilot plant of '
-		+'a distillation column with a capacity of 5 Liters.'
-		+'<br><p><b>Background :</b> <br>The pilot plant will be used to test the new “control and automation” technologies.'
+		+'<br><br><b>Problem Statement:</b> You are given the responsibility as an Instrumentation and Control Engineer to design and commission a pilot plant'
+		+' of a distillation column with a capacity of 5 Liters.'
+		+'<br><p><b>Background :</b> <br>The pilot plant will be used to test the new "control and automation" technologies.'
 		+'<br><br><b>Key Performance Indicators (KPIs) :</b><br> You will be judged based on the accuracy of design, proper'
 		+' selection of field and panel instruments, and successful commissioning of the plant in a stipulated time frame.'
 		+'<br><br><b>Constraints and Assumptions :</b><br> As you are an Instrumentation and Control Engineer process related details are'
 		+' not expected from you. You will receive the same from a process expert.</b></div>'
-		+'<div class="row"><img src="images/DesCol.png" class="img img-responsive"></img></div>' 
+		+'<div class="row"><img src="../resources/vlabs/elctricalLabs/PMEnggLab1/exp4/images/DesCol.png" class="img img-responsive"></img></div>' 
 
 		
 	$("#proStrBody").html(htm);
@@ -45,7 +45,7 @@ $("#simDemo").click(function () {
     +'         <div class="section">'
     +'             <h4 class="tab-title">3. Sequence of Activities</h4>'
     +'             <ul>'
-    +'                 <li>- Read the “Prior Knowledge Assessment” statements carefully.</li>'
+    +'                 <li>- Read the "Prior Knowledge Assessment" statements carefully.</li>'
     +'                 <li>- Enter the appropriate sequence number in the provided text box. The system will not allow you to write the duplicate numbers. Hence be careful.</li>'
     +'                 <li>- Click on the <button class="button">Submit</button> button.</li>'
     +'                 <li>- You have three attempts to verify whether the sequence is correct or not.</li>'

@@ -2,11 +2,10 @@ var seqCount=0;
 function DistillationColumnSquActivities()
 {
 
-	
-//	  timerMasterJson.instr=$("#counter").text();
-//		console.log(timerMasterJson);
-//		seconds = 0;
-//		  updateCounter();
+	  timerMasterJson.instr=$("#counter").text();
+		//console.log(timerMasterJson);
+		seconds = 0;
+		  updateCounter();
 	var htm=''
 		 +'<div class="row justify-content-center" style="margin:5px;background-color:#343a40;margin: 5px; padding: 10px;">'
 

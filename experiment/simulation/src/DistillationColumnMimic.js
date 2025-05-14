@@ -8,7 +8,7 @@
 function DistillationColumnMimic(){
 	
     timerMasterJson.squences=$("#counter").text();
-	console.log(timerMasterJson);
+	//console.log(timerMasterJson);
 	seconds = 0;
 	updateCounter();
 	
@@ -46,15 +46,15 @@ $("#Header").html("	<center><span >SIMULATION</span></center>");
 		+'<tbody>'
 		+'  <tr>'
 		+' <td><label><b>TT 1 </b></label></td>'
-		+' <td><label class="PMCValue" id="tt1">0</label>°C</td>'
+		+' <td><label class="PMCValue" id="tt1">0</label><sup>o</sup>C</td>'
 		+'  </tr>'
 		+'  <tr>'
 		+' <td><label><b>TT 2 </b></label></td>'
-		+' <td><label class="PMCValue" id="tt2">0</label>°C</td>'
+		+' <td><label class="PMCValue" id="tt2">0</label><sup>o</sup>C</td>'
 		+'  </tr>'
 		+'  <tr>'
 		+' <td><label><b>TT 3 </b></label></td>'
-		+' <td><label class="PMCValue" id="tt3">0</label>°C</td>'
+		+' <td><label class="PMCValue" id="tt3">0</label><sup>o</sup>C</td>'
 		+'  </tr>'
 		+' <tr>'
 		+'   <td><label><b>FT 1 </b></label></td>'
@@ -179,7 +179,7 @@ $("#Header").html("	<center><span >SIMULATION</span></center>");
 	DistillationColumnDiagram();
 	$("#resetBtn").click(function(){
 		
-		$("#diagram").html("");
+		//$("#diagram").html("");
 		 flg = 0;
 		 sample = 0;
 //		 console.log(dataArr.length);

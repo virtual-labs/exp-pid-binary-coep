@@ -41,6 +41,11 @@ function DistillationColumnInstrument()
 	
 	var instrActualCount=0;
 	
+	timerMasterJson.piping=$("#counter").text();
+		//console.log(timerMasterJson);
+		seconds = 0;
+		  updateCounter();	
+	
 	$("#Header").html("	<center><span >DISTILLATION COLUMN - INSTRUMENT DIAGRAM</span></center>");
 	$("#Selection").css({"overflow": "auto","height":" 837px"});
 	htm=''

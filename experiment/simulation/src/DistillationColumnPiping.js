@@ -72,7 +72,7 @@ function DistillationColumnPiping()
 		+' <input class="form-select" id="controlValves" type="number" min="0" max="5" value="0" tabindex="6" ></input>'
 		+'</div>'
 		+'<div class="col-sm-12">'
-		+'<label><b>Enter no of solinoid valves</b></label>'
+		+'<label><b>Enter no of solenoid valves</b></label>'
 		+' <input class="form-select" id="solinoidValves" type="number" min="0" max="5" value="0" tabindex="7" ></input>'
 		+'</div>' 
 		+'<div class="col-sm-12">'

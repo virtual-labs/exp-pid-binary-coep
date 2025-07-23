@@ -22,7 +22,6 @@
 
 #### Online Resources:
 
--	Distillation and Separations. (n.d.). Pilot-Scale Distillation Plants: Design and Operation. Retrieved from https://www.distillation-separations.com/pilot-scale-distillation-plants/
 -	Chemical Engineering. (n.d.). Distillation: Fundamentals, Applications, and Recent Advances. Retrieved from https://www.chemengonline.com/distillation/
 
 #### Thesis and Dissertations:

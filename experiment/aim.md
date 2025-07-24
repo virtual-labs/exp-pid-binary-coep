@@ -1,6 +1,6 @@
 ## Aim 
 
-To design and automate the distillation plant which will be used for experimentation 
+To design and development of P & I Diagram for binary batch distillation column
 
 ## Objectives 
  

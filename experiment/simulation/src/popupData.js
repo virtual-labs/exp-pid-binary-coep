@@ -12,7 +12,7 @@ $("#simDemo").click(function () {
 		+' selection of field and panel instruments, and successful commissioning of the plant in a stipulated time frame.'
 		+'<br><br><b>Constraints and Assumptions :</b><br> As you are an Instrumentation and Control Engineer process related details are'
 		+' not expected from you. You will receive the same from a process expert.</b></div>'
-		+'<div class="row"><img src="../resources/vlabs/elctricalLabs/PMEnggLab1/exp4/images/DesCol.png" class="img img-responsive"></img></div>' 
+		+'<div class="row"><img src="images/DesCol.png" class="img img-responsive"></img></div>' 
 
 		
 	$("#proStrBody").html(htm);
